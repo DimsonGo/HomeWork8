@@ -45,7 +45,10 @@ public class Main {
         System.out.println("Задание 2 распечатать");
 
 
-        System.out.println("Задание 3 (Распечатать в обраном порядке эл-ты третьего массива)");
+        //Тут исправил
+        System.out.println("Задание 3 (Распечатать в обраном порядке элементы третьего массива)");
+        System.out.println(num[2] + ", " + num[1] + ", " + num[0]);
+        System.out.println(doubleNum[2] + ", " + doubleNum[1] + ", " + doubleNum[0]);
         System.out.println(number[4] + ", " + number[3] + ", " + number[2] + ", " + number[1] + ", " + number[0]);
         System.out.println(numP[2] + ", " + numP[1] + ", " + numP[0]);
 
